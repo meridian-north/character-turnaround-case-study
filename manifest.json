@@ -1,0 +1,66 @@
+{
+  "schema": "turnaround-public-evidence.v1",
+  "scope": "Public-safe crops from user-authorized screenshots;not native generated source files.",
+  "artifacts": [
+    {
+      "file": "images/early-12-figures.png",
+      "dimensions": [
+        500,
+        279
+      ],
+      "bytes": 164417,
+      "sha256": "ade47962ca5666d4d655e5751f49037594959be54dd9f8adbecc369cc73776fb",
+      "visible_figure_count": 12,
+      "caption": "Earlier board; preceding assistant draft requested eight views. Exact submitted payload not exported.",
+      "method": "Exact rectangle crop;no resizing,no AI redrawing;decoded pixel bytes match source rectangle;PNG metadata removed."
+    },
+    {
+      "file": "images/18-figures-unlabelled.png",
+      "dimensions": [
+        500,
+        373
+      ],
+      "bytes": 198134,
+      "sha256": "695050305576cf9ad9eae614e45b8de5a1aea85e057fa0aa85d51464cfdda923",
+      "visible_figure_count": 18,
+      "caption": "Board shown after the sixteen-direction request.",
+      "method": "Exact rectangle crop;no resizing,no AI redrawing;decoded pixel bytes match source rectangle;PNG metadata removed."
+    },
+    {
+      "file": "images/18-figures-labelled.png",
+      "dimensions": [
+        500,
+        375
+      ],
+      "bytes": 208710,
+      "sha256": "ef9753329f84943c097ff54dded40b2697d699f7b5ca80a979487627e8400e44",
+      "visible_figure_count": 18,
+      "caption": "Labelled board; three rows of six. Duplicate135degree label;270degree figure is rear-facing.",
+      "method": "Exact rectangle crop;no resizing,no AI redrawing;decoded pixel bytes match source rectangle;PNG metadata removed."
+    },
+    {
+      "file": "images/12-figures-numbered.png",
+      "dimensions": [
+        500,
+        373
+      ],
+      "bytes": 245955,
+      "sha256": "cb84aec46f5b34e5ab0f10b6163185d3198a87ade074f9b587b2df850399209c",
+      "visible_figure_count": 12,
+      "caption": "Indices1,2,3,4,5,6,9,10,11,13,15,16; twelve figures.",
+      "method": "Exact rectangle crop;no resizing,no AI redrawing;decoded pixel bytes match source rectangle;PNG metadata removed."
+    },
+    {
+      "file": "images/later-correct-count.png",
+      "dimensions": [
+        825,
+        100
+      ],
+      "bytes": 30042,
+      "sha256": "f4542894c56bcf69f7f304d51817f86e241e6b019bcb8e0b2de0a9351509cc19",
+      "visible_figure_count": null,
+      "caption": "Later model response correctly counts twelve; retained as counterevidence to blanket inability claims.",
+      "method": "Exact rectangle crop;no resizing,no AI redrawing;decoded pixel bytes match source rectangle;PNG metadata removed."
+    }
+  ]
+}
